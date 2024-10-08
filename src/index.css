@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-active{
+    @apply pb-1 border-b-[2px] border-b-[#49557e]
+}
+
+.menu-active{
+    border: 4px solid #ff6347;
+    padding: 2px;
+}
+
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
