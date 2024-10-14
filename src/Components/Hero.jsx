@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div>
-      <div className='container pt-36 pb-10 my-[30px] mx-auto bg-header object-contain rounded-2xl'>
+      <div className='container pt-36 pb-10 my-[30px] mx-auto bg-hero object-contain rounded-2xl'>
       <div className='animate-fadeIn  flex flex-col items-start gap-[1.5vw] md:max-w-[50%] px-11'>
         <h2 className='font-medium text-white text-6xl'>
             Order your favourite foods here

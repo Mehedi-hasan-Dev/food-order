@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'header':"url('./../../public/header_img.png')",
+        'hero':"url('./assets/header_img.png')",
       },
       keyframes: {
         fadeIn: {
