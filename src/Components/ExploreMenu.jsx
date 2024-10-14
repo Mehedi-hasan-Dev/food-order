@@ -10,7 +10,7 @@ const ExploreMenu = ({category,setCategory}) => {
     <div className='flex flex-col gap-5 container'>
       <h1 className='text-3xl text-[#262626] font-medium'>Explore our menu</h1>
       <p className='md:max-w-[60%] text-[#808080]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae fugiat, earum culpa molestiae vel nostrum?</p>
-      <div className='flex flex-wrap lg:flex-nowrap justify-start md:justify-between items-center gap-8 text-center my-5 overflow-x-scroll no-scrollbar'>
+      <div className='flex flex-wrap lg:flex-nowrap  justify-between items-center gap-3 md:gap-8 text-center my-5 overflow-x-scroll no-scrollbar'>
         {menu_list.map((item,index)=>{
             return (
                 <div onClick={()=> setCategory(prev=>prev===item.menu_name?"All":item.menu_name)} key={index} className=''>
